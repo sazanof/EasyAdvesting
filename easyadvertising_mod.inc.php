@@ -94,7 +94,7 @@ else {
                                 <tbody>
                                 ';
     foreach ($records_ar as $record){
-        $records .= '<tr>
+        $records .= '<tr class="publ'.$record['published'].'">
                             <td class="tableItem"><img src="/'.$record['content'].'" style="height: 70px;width: auto"></td>
                             <td class="tableItem">'.$record['description'].'
                             <br>
